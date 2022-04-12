@@ -1,0 +1,45 @@
+.description{
+display: flex;
+flex-direction:column;
+align-items: center;
+justify-content: center;
+}
+.avatar{
+    background-color: teal;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    margin-bottom: 30px;
+}
+.name{
+    margin-bottom: 10px;
+}
+.tag{
+    margin-bottom: 10px;
+}
+.location{
+    margin-bottom: 20px;
+}
+.stats{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    background-color: GhostWhite;
+   
+}
+.item:first-child,
+.item:last-child{
+    border:solid DarkGray 2px;
+}
+.item:nth-child(2){
+    border-top: solid DarkGray 2px;
+    border-bottom: solid DarkGray 2px;
+}
