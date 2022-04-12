@@ -5,7 +5,7 @@ const FriendList = ({friends }) => (
 <span className={friend.isOnline ? s.IsOnline:s.IsOffline} >.</span>
    
 
-<img className = {s.image} src ={friend.avatar} width="48"></img>
+<img className = {s.image} src ={friend.avatar} width="48" alt = "Its my friends"></img>
 <p className = {s.name}> {friend.name}</p>
 </li>
 
